@@ -1,5 +1,18 @@
-// [rule: 百科 ?]
-var content = request({ url: "http://xiaoapi.cn/api/sgbaike.php?msg=" + encodeURI(param(1)) })
-var matched = content.match(/±img=.*±/) + ""
-content = content.replace(matched, "").replace(/\\n/g, "\n").replace(/&nbsp;/g, " ")
-sendText(matched ? image(matched.replace("img=", "").replace(/±/g, "")) + "\n" + content : content)
+// [rule: 百科 ?] 百科 XX
+function main(){
+	var keywords = param(1);
+	var data = request({
+		url:'https://api.iyk0.com/sgbk/?msg='+keywords,
+		dataType:'json'
+	})
+	if(data["code"] == 200){
+		var info = data["data"] + "\n"
+		info+=data["type"]+"\n";
+		info+=data["url"]
+		sendImage(data["img"]);
+		sendText(info)
+	}else{
+		sendText("nono，无数据。")
+	}
+}
+main();
