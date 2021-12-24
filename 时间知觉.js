@@ -1,6 +1,6 @@
 // 时间知觉测试
-// [rule: 时间知觉测试 ? ]
-// [rule: 时间知觉测试 ]
+// [rule: 时间知觉测试?]
+// [rule: 时间知觉测试]
 
 function main() {
     var sec = param(1);

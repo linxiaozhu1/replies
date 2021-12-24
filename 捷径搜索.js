@@ -1,5 +1,5 @@
 // 捷径搜索
-// [rule: 捷径 ?]
+// [rule: ?捷径]
 
 function main() {
     var keyword = encodeURI(param(1))

@@ -1,5 +1,5 @@
-// [rule: 王者出装 ?] 王者出装 孙悟空
-// [rule: ? 出装]
+// [rule: 王者出装?] 王者出装 孙悟空
+// [rule: ?出装]
 var hero = param(1);
 hero = encodeURIComponent(hero);
 var data = request({

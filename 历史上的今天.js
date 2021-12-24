@@ -1,4 +1,4 @@
-// [rule: 历史上的今天 ] 历史上的今天
+// [rule: 历史上的今天] 历史上的今天
 function main() {
 	var data = request({
 		// 内置http请求函数

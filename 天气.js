@@ -1,6 +1,5 @@
 // 查天气-傻妞Javascripts插件开发示例
 // [rule: ?天气 ] 北京天气
-// [rule: 天气 ? ] 天气 北京
 // [cron: 0 6 * * * ] 每天早上6点推送天气信息
 
 function main() {

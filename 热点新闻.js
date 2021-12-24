@@ -1,5 +1,4 @@
-// [rule: 热点新闻 ]
-// [rule: 热点 ]
+// [rule: 热点新闻]
 var data = request({
 		url: "https://www.mxnzp.com/api/news/list?typeId=525&page=1&app_id=ovtyzrfpxetq8pte&app_secret=U2NtQ1pnNGtJWDRXTFNwUVlSK1gxdz09",
 		"method": "get", //请求方法

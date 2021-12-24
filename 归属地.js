@@ -1,4 +1,4 @@
-// [rule: 归属地 ? ] 归属地 手机号
+// [rule: ?归属地] 手机号归属地
 function main() {
   var tel = param(1) //匹配规则第一个问号的值
   var data = request({
