@@ -1,5 +1,5 @@
 // 菜单
-// [rule: 佩琦菜单]
+// [rule: 菜单]
 
 function main() {
 	sendText (" 　　　　　　　 京东菜单
