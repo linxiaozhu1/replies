@@ -1,5 +1,5 @@
 // 查疫情傻妞插件（哈尼插件）
-// [rule: ? 疫情] 武汉疫情
+// [rule: ?疫情] 武汉疫情
 function main() {
     var address = param(1) 
     var content = request({ 
