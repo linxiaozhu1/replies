@@ -1,0 +1,10 @@
+// [rule: test]
+
+function main() {
+    //撤回消息	
+    RecallMessage(GetMessageID())	
+    //撤回机器人发出的消息	
+    RecallMessage(sendText("这条消息你还没看见就被撤回了。"))
+}
+
+main
